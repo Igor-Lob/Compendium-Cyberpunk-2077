@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(180deg, #0f0f0f 0%, #1a1a1a 100%);
+  color: #f0f0f0;
+  font-family: 'Orbitron', sans-serif;
+  padding: 20px;
+}
+
+header.person {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 30px; 
+  row-gap: 40px; 
+}
+
+section {
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 2px solid #00ffff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 0 20px #00ffff80;
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #ff00ff, 0 0 15px #00ffff;
+}
+
+section h1 {
+  font-size: 22px;
+  color: #ff00ff;
+  margin-bottom: 15px;
+  text-shadow: 0 0 5px #ff00ff;
+  text-align: center;
+}
+
+section img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px #00ffff;
+}
+
+section p {
+  font-size: 14px;
+  color: #e0e0e0;
+  text-align: justify;
+  line-height: 1.5;
+  text-shadow: 0 0 5px #00ffff40;
+}

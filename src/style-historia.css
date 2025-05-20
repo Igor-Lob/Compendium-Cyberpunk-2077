@@ -1,0 +1,65 @@
+/* Fonte futurista */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+  background-color: #0f0f0f;
+  color: #00ffff;
+  font-family: 'Orbitron', sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+.historia img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-bottom: 3px solid #00ffff;
+}
+
+/* Seção */
+.lore {
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ffff80;
+  margin-top: 20px;
+}
+
+.lore h2 {
+  color: #ffcc00;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+/* Parágrafos */
+.lore p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #eee;
+  text-align: justify;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .lore {
+    padding: 20px;
+  }
+
+  .lore h2 {
+    font-size: 24px;
+  }
+
+  .lore p {
+    font-size: 16px;
+  }
+}
