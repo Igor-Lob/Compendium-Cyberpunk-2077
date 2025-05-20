@@ -1,4 +1,4 @@
-📘 Compendium Cyberpunk 2077
+📘 Compendium Cyberpunk 2077,
 Este projeto é um compêndio interativo inspirado no universo de Cyberpunk 2077, reunindo informações sobre as principais tecnologias presentes no jogo, como Cyberware, Braindance, Cyberdeck, Veículos e Blackwall.
 
 💡 Objetivo
